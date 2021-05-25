@@ -1,0 +1,157 @@
+*{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+body{
+  background-image:url('../img/bi1.jpg');
+  max-width:100%;
+  height:auto;
+}
+
+
+
+#mlogo{
+  position:absolute;
+  z-index:2;
+  margin-top:30px;
+}
+#mlogo a{
+  padding:10px 30px;
+  margin-left:20px;
+  border:2px solid white;
+  background-color:rgb(240, 72, 77);
+  border-radius:10px;
+  cursor:pointer;
+  transition: 0.4s;
+  font-family: 'Montserrat', sans-serif;
+  text-transform:uppercase;
+  font-size:20px;
+  color:white;
+  font-width:bolder;
+  text-decoration:none;
+}
+#mlogo a:hover{
+  background-color:white;
+  color:rgb(240, 72, 77);
+  padding:10px 40px;
+}
+
+
+.one{
+  position:absolute;
+  right:0;
+  margin-right:60px;
+  margin-top:30px;
+  width:750px;
+}
+.one li{
+  display: inline;
+
+}
+
+.one li a{
+  font-family: 'Montserrat', sans-serif;
+  /* border:1px solid white; */
+  color:whitesmoke;
+  padding:10px 15px;
+  margin-left:30px;
+  font-size:15px;
+  text-align: center;
+  text-transform:capitalize;
+  font-weight: bolder;
+  text-decoration:none;
+  transition: 0.6s;
+}
+.one li a img {
+  display:inline;
+  filter: invert(41%) sepia(11%) saturate(4136%) hue-rotate(320deg) brightness(103%) contrast(93%);
+  width:25px;
+  height:25px;
+}
+
+/* #d a{
+  color:whitesmoke;
+  background-color: #161616;
+  border-radius:10px;
+  backface-visibility:50;
+} */
+
+
+#d a:hover{
+  margin-right:20px;
+}
+.one li a:hover{
+  color:whitesmoke;
+  background-color: #161616;
+  border-radius:10px;
+  padding:15px 20px;
+
+}
+
+.contact{
+  position:absolute;
+  margin-top:200px;
+  margin-left:80px;
+  /* border:1px solid white; */
+}
+
+.contact img{
+  display:block;
+  margin-top:60px;
+  width:50px;
+  transition:0.5s;
+}
+
+.contact img:hover{
+    width:70px;
+}
+
+.text{
+  position: absolute;
+  right:0;
+  width:400px;
+  margin-top:300px;
+  margin-right:40px;
+}
+.text{
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+}
+
+.sb{
+  position: absolute;
+  bottom:0;
+  margin-left:800px;
+  margin-bottom:40px;
+  width:320px;
+
+}
+#search input{
+  position: absolute;
+  padding:10px 50px;
+  border-radius:50px;
+  border-style:none;
+  border:2px solid rgb(240, 72, 77);
+  outline:none;
+
+}
+
+#button input {
+position:absolute;
+outline:none;
+right:0;
+width:35px;
+height:35px;
+margin-right:10px;
+border-radius:15px;
+border:1px solid rgb(240, 72, 77);
+}
+#button img{
+  position:absolute;
+  right:0;
+  margin-right:13px;
+  margin-top:5px;
+  width:25px;
+}
